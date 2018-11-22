@@ -1,0 +1,96 @@
+/*
+ * @Author: dengyongqing@aliyun.com 
+ * @Date: 2018-11-22 17:40:11 
+ * @Last Modified by:   dengyongqing@aliyun.com 
+ * @Last Modified time: 2018-11-22 17:40:11 
+ */
+ 
+:global(.silk-listcontrol-wrapper) {
+  overflow: hidden;
+  padding: 1rem 1.6rem 0px;
+}
+:global(.silk-listcontrol-wrapper-default) {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+}
+
+:global(.silk-listcontrol-scroller) {
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+   -ms-user-select: auto;
+       user-select: auto;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+      text-size-adjust: none;
+  }
+  :global(.silk-listcontrol-scroller-horizontal) {
+    display: inline-block;
+  }
+  :global(.silk-listcontrol-scroller-vertical) {
+    position: relative;
+    /* position: static; */
+  }
+
+:global(.silk-listcontrol-loadwrapper) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  color: #8f8e93;
+  font-size: 14px; }
+  :global(.silk-listcontrol-loadwrapper-up) {
+    top: -50px; }
+
+:global(.silk-listcontrol-loadtip) {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+:global(.silk-listcontrol-icon) {
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #3587F2;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  -webkit-transition: -webkit-transform 0.4s; }
+
+:global(.silk-listcontrol-text) {
+  padding-left: 5px; }
+
+:global(.list-view-item) {
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  border-bottom: 1px solid #efefef;
+  color: #3d3d3d; }
+  :global(.list-view-item:first-child) {
+    border-top: 1px solid #efefef; }
+
+    .testTest{
+      background: red;
+    }
