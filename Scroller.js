@@ -1,8 +1,8 @@
 /*
  * @Author: dengyongqing@aliyun.com 
  * @Date: 2018-11-22 17:24:49 
- * @Last Modified by:   dengyongqing@aliyun.com 
- * @Last Modified time: 2018-11-22 17:24:49 
+ * @Last Modified by: dengyongqing
+ * @Last Modified time: 2018-12-04 20:38:11
  */
 
 import React, { Component } from 'react';
@@ -1461,6 +1461,7 @@ export default class Scroller extends Component {
                         children,
                         element => element && React.cloneElement(element, {
                             onLoad: this.asyncLoad,
+                            scroller: this,
                         }),
                     )}
                     {
